@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.logo {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.navlist {
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navItem {
+    padding-bottom: 5px;
+}
+.active {
+    border-bottom: 2px solid black;
+}
